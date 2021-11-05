@@ -1,0 +1,290 @@
+    @media (min-width: 414px) {
+        /* Header----------------- */
+        #logo img {
+            max-width: 222px;
+            min-height: 85px;
+            padding-top: 32px;
+            margin-left: -4px;
+            margin-top: -24px;
+        }
+        #rps-menu {
+            float: right;
+            /* margin-top: -67px; */
+            margin-top: -60px;
+            margin-right: -160px;
+        }
+        form#search input {
+            width: 357px;
+            height: 40px;
+            border: none;
+            outline: none;
+            padding: 9px 42px 9px 15px;
+            color: rgb(58, 47, 47);
+            background: #fff;
+            margin: 15px 0 0 -65px;
+            border-radius: 50rem;
+            border: 1px solid #ee2624;
+        }
+        form#search button {
+            top: 12px;
+            left: 320px;
+            position: absolute;
+            /* color: #cdc7c7; */
+            background: none;
+            /* border: 1px solid red; */
+            border: none;
+            padding: 9px 12px;
+            font-size: 18px;
+            outline: none;
+        }
+        /* Slider---------- */
+        #slider img {
+            width: 414px;
+            height: 200px;
+        }
+        #slider {
+            margin-top: 90px;
+        }
+        /* Best seller  */
+        #best-seller h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            z-index: 1;
+            position: relative;
+            display: inline-block;
+            padding: 10px 25px;
+            color: #000;
+        }
+        #best-seller #products-new {
+            font-family: 'Open Sans', sans-serif;
+            padding-top: 20px;
+        }
+        /* Product Featured------------------- */
+        #products-featured .product-item-b {
+            margin-left: 66px;
+        }
+        #products-featured h2.product-item-title {
+            position: absolute;
+            top: 90px;
+            font-size: 20px;
+            padding: 0px 45px;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+        }
+        /* Product NEW------------------- */
+        #prd_new .product-item-b {
+            margin-left: 66px;
+        }
+        #prd_new h2.product-item-title {
+            position: absolute;
+            top: 90px;
+            font-size: 20px;
+            padding: 0px 45px;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+        }
+        /* Product NEW 2------------------- */
+        #prdnew h2.product-item-title {
+            position: absolute;
+            top: 90px;
+            font-size: 20px;
+            padding: 0px 45px;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+        }
+        #prdnew .product-item-b {
+            margin-left: 66px;
+        }
+        /* News------------------------- */
+        #share h3 {
+            font-size: 19px;
+        }
+        /* Footer------------- */
+        #footer .wp_about_us_f {
+            margin-bottom: 40px;
+        }
+        #footer .wp_information_f {
+            margin-bottom: 40px;
+        }
+        #footer .wp_support_f {
+            margin-bottom: 40px;
+        }
+        /* PRODUCT-DETAIL------------------- */
+        /* BREADCRUMB------- */
+        #breadcrumb {
+            background: #e9ecef;
+            /* width: 1903px; */
+            height: 48px;
+            /* margin-bottom: 20px; */
+            margin-top: 69px;
+            margin-left: -270px;
+            padding-left: 235px;
+        }
+        #breadcrumb .breadcrumb {
+            padding: 0px;
+            margin-left: 18px;
+            margin-top: 11px;
+        }
+        /* wp-content  ------------------- */
+        #detail_product img.img_item_1 {
+            width: 365px;
+            height: 507px;
+            z-index: 2;
+        }
+        /* PRODUCT-RELATED-------------- */
+        #product-related h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 25px;
+            z-index: 1;
+            position: relative;
+            display: inline-block;
+            padding: 10px 25px;
+            color: #000;
+        }
+    }
+    
+    @media (min-width: 576px) {}
+    
+    @media (min-width: 768px) {}
+    
+    @media (min-width: 992px) {}
+    
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1170px;
+        }
+        /* Header-------------------- */
+        #logo img {
+            max-width: 200px;
+            min-height: 46px;
+            padding-top: 50px;
+            margin-left: 40px;
+            margin-top: -13px;
+        }
+        form#search input {
+            width: 463px;
+            height: 40px;
+            border: none;
+            outline: none;
+            padding: 9px 42px 9px 15px;
+            color: rgb(58, 47, 47);
+            background: #fff;
+            margin: 6px 0 0 10px;
+            border-radius: 50rem;
+            border: 1px solid #ee2624;
+        }
+        form#search button {
+            position: absolute;
+            top: 4px;
+            left: 498px;
+            /* color: #cdc7c7; */
+            background: none;
+            /* border: 1px solid red; */
+            border: none;
+            padding: 9px 12px;
+            font-size: 18px;
+            outline: none;
+        }
+        /* Slider---------------- */
+        #slider img {
+            width: 1903px;
+            height: 614px;
+        }
+        #slider {
+            margin-top: 0px;
+        }
+        /* Best seller  */
+        #best-seller h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            z-index: 1;
+            position: relative;
+            display: inline-block;
+            padding: 10px 25px;
+            color: #000;
+        }
+        #best-seller #products-new {
+            font-family: 'Open Sans', sans-serif;
+            padding-top: 90px;
+        }
+        /* Product Featured------------------- */
+        #products-featured .product-item-b {
+            margin-left: 0px;
+        }
+        #products-featured h2.product-item-title {
+            position: absolute;
+            top: 90px;
+            font-size: 30px;
+            padding: 0px 45px;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+        }
+        /* Product NEW------------------- */
+        #prd_new .product-item-b {
+            margin-left: 0px;
+        }
+        #prd_new h2.product-item-title {
+            position: absolute;
+            top: 90px;
+            font-size: 30px;
+            padding: 0px 45px;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+        }
+        /* Product NEW 2------------------- */
+        #prdnew h2.product-item-title {
+            position: absolute;
+            top: 90px;
+            font-size: 30px;
+            padding: 0px 45px;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+        }
+        #prdnew .product-item-b {
+            margin-left: 0px;
+        }
+        /* News------------------------- */
+        #share h3 {
+            font-size: 26px;
+        }
+        /* PRODUCT-DETAIL */
+        /* BREADCRUMB--------------- */
+        #breadcrumb {
+            background: #e9ecef;
+            height: 48px;
+            margin-top: 0px;
+            margin-left: -270px;
+            padding-left: 235px;
+        }
+        #breadcrumb .breadcrumb {
+            padding: 0px;
+            margin-left: 18px;
+            margin-top: 11px;
+        }
+        /* wp-content  ------------------- */
+        #detail_product img.img_item_1 {
+            width: 553px;
+            height: 553px;
+            z-index: 2;
+        }
+        /* PRODUCT-RELATED-------------- */
+        #product-related h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            z-index: 1;
+            position: relative;
+            display: inline-block;
+            padding: 10px 25px;
+            color: #000;
+        }
+    }
