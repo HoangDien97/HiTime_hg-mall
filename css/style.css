@@ -300,6 +300,14 @@ a.link {
 }
 
 
+/* Banner smartphone-------------  */
+
+#banner-smartphone img {
+    width: 414px;
+    height: 290px;
+}
+
+
 /* Flash-Sale----------------- */
 
 #product-slider {
@@ -357,7 +365,7 @@ a.link {
 
 #product-slider .progress {
     height: 8px;
-    width: 204px;
+    /* width: 204px; */
 }
 
 .wp-product-slider {
@@ -1343,7 +1351,7 @@ a.link_f:hover {
 }
 
 #rps-menu input:checked+.test {
-    height: 290px;
+    height: 377px;
 }
 
 #rps-menu ul#respon-menu {
@@ -1377,4 +1385,102 @@ a.link_f:hover {
 
 #rps-menu .account-submenu .register {
     color: #ff5722;
+}
+
+
+/* --------------------- menu hover */
+
+#header-end .logo-menu {
+    /* margin-top: -54px; */
+    position: absolute;
+    top: -62px;
+    z-index: 1;
+}
+
+#header-end i.fas.fa-bars {
+    font-size: 34px;
+}
+
+#header-end .top-category .category-hid {
+    min-width: 250px;
+    /* background-color: #f2f2f2; */
+    background: silver;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: -26px;
+    left: 0;
+}
+
+#header-end .top-category:hover .category-hid {
+    display: block;
+}
+
+#header-end .top-category {
+    position: relative;
+}
+
+#header-end .top-category .category-hid .list-cate {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header-end .top-category .category-hid .item-cate {
+    padding: 5px 20px 9px 20px;
+    position: relative;
+    right: 0;
+    /* transition: right linear 0.1s; */
+    margin-bottom: 1px;
+    background: #fff;
+}
+
+#header-end .top-category .category-hid .item-cate:hover,
+#header-end .top-category .category-hid .item-cate:hover a {
+    /* background-color: var(--primary-color-lg); */
+    background: silver;
+    color: #e85933;
+    /* right: -4px; */
+}
+
+#header-end .top-category .category-hid .cate-link {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#header-end .top-category .category-hid p {
+    padding-top: 6px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: initial;
+}
+
+#header-end .top-category .img-cate img {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    margin-top: 7px;
+}
+
+
+/* ////////////////////////////////////////////////////// */
+
+#header-link .header-link-item {
+    display: flex;
+}
+
+#header-link .header-link-item p {
+    margin-bottom: 0;
+    padding: 5px 0;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+#header-link .header-link-item p:hover {
+    cursor: pointer;
 }

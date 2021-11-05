@@ -38,12 +38,18 @@
             outline: none;
         }
         /* Slider---------- */
-        #slider img {
-            width: 414px;
-            height: 200px;
-        }
         #slider {
             margin-top: 90px;
+        }
+        #slider .banner-left img {
+            width: 376px;
+            height: 255px;
+            border-radius: 10px;
+        }
+        /* Banner smartphone-------------  */
+        #banner-smartphone img {
+            width: 414px;
+            height: 194px;
         }
         /* Best seller  */
         #best-seller h1 {
@@ -132,7 +138,7 @@
         /* wp-content  ------------------- */
         #detail_product img.img_item_1 {
             width: 365px;
-            height: 507px;
+            height: 437px;
             z-index: 2;
         }
         /* PRODUCT-RELATED-------------- */
@@ -191,12 +197,18 @@
             outline: none;
         }
         /* Slider---------------- */
-        #slider img {
-            width: 1903px;
-            height: 614px;
-        }
         #slider {
             margin-top: 0px;
+        }
+        #slider .banner-left img {
+            width: 773px;
+            height: 255px;
+            border-radius: 10px;
+        }
+        /* Banner smartphone-------------  */
+        #banner-smartphone img {
+            width: 1170px;
+            height: 290px;
         }
         /* Best seller  */
         #best-seller h1 {
